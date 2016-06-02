@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "complex-debug": "^2.0.0",
+    "complex-engine": "^2.1.0",
+    "complex-physicsjs": "0.0.1",
+    "complex-pixi": "^2.1.2",
+    "complex-stats": "^2.0.2",
+    "express": "^4.13.4",
+    "physicsjs": "^0.7.0"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "lite-server": "^2.2.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "run": "node server.js",
+    "build": "browserify src/App.js -o dist/App.js"
+  },
+  "license": "ISC"
+}
